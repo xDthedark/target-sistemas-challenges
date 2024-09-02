@@ -14,9 +14,3 @@ Este repositório contém soluções para desafios técnicos propostos pela Targ
 - `desafio_3/`: Análise de faturamento diário com dados em JSON.
 - `desafio_4/`: Cálculo do percentual de faturamento por estado.
 - `desafio_5/`: Função para inverter uma string sem usar funções prontas.
-
-## Como Executar
-### Desafio 1
-Para rodar o script do Desafio 1:
-```bash
-python desafio_1/soma_variavel.py
