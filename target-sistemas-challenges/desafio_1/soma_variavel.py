@@ -1,12 +1,9 @@
-# Definindo as variáveis
-indice = 13
-soma = 0
-k = 0
+# soma_variavel.py
+def soma_variavel(*args):
+    return sum(args)
 
-# Loop enquanto k for menor que indice
-while k < indice:
-    k += 1
-    soma += k
-
-# Imprimindo o resultado
-print(soma)
+if __name__ == "__main__":
+    import sys
+    valores = map(float, sys.argv[1:])
+    resultado = soma_variavel(*valores)
+    print(f"A soma é: {resultado}")
