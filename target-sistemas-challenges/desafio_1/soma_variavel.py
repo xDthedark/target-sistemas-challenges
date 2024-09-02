@@ -11,3 +11,4 @@ while k < indice:
 
 # Imprimindo o resultado
 print(soma)
+
