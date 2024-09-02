@@ -1,4 +1,5 @@
-# fibonacci.py
+# fibonacci
+
 def fibonacci(n):
     a, b = 0, 1
     while a < n:
@@ -7,6 +8,8 @@ def fibonacci(n):
     print()
 
 if __name__ == "__main__":
-    import sys
-    numero = int(sys.argv[1])
-    fibonacci(numero)
+    try:
+        numero = int(input("Digite um número: "))
+        fibonacci(numero)
+    except ValueError:
+        print("Por favor, forneça um número inteiro válido.")
